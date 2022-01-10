@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 173, 198);
+}
+header{
+    background-color: rgb(130, 32, 74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-color: rgb(115, 251, 211);
+    border-style: dashed;
+    border-radius: 20px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+header li{
+    display: inline-block;
+}
+header a{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: rgb(115, 251, 211);
+    color: rgb(130, 32, 74);
+  }
+
+.About{
+    margin-bottom: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(50, 74, 95);
+    color: white;
+    border-color: rgb(115, 251, 211);
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.About h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.About img{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    margin: 15px;
+}
+
+.About p{
+    text-indent: 20px;
+    line-height: 1.7;
+}
+
+.Work{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+}
+
+.Card1 {
+    background-color: rgb(50, 74, 95);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px rgb(115, 251, 211);
+    margin: 20px;
+    text-align: center;
+}
+
+.Card1 header{
+    align-items: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Card1 img{
+    border-color: rgb(115, 251, 211);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Card1 link{
+    color: white;
+    text-align: center;
+}
+
+.Card2{
+    background-color: rgb(50, 74, 95);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px rgb(115, 251, 211);
+    margin: 20px;
+}
+
+.Card2 header{
+    align-items: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Card2 img{
+    border-color: rgb(115, 251, 211);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Contact{
+    clear: both;
+    padding: 20px;
+    background-color: rgb(130, 32, 74);
+    color: white;
+    text-align: center;
+    border-color: rgb(115, 251, 211);
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.Contact h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Contact li{
+    display: inline-block;
+}
+
+.Contact a{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.Contact nav a:hover {
+    background-color: rgb(115, 251, 211);
+    color: rgb(50, 74, 95);   
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    img,
+    nav {
+      flex-direction: column;
+    }
+}
