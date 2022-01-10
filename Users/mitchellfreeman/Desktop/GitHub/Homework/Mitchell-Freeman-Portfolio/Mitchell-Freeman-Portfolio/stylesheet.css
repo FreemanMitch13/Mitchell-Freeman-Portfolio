@@ -66,12 +66,14 @@ nav a:hover {
 #Work{
   flex: 1;
   padding: 5px;
-  display: grid;
+  display: flex;
   grid-column: 3;
   color: white;
   text-align: center;
   flex-direction: column;
   flex-wrap: wrap;
+  height: auto;
+  width: 100%;
 }
 
 .Card1 {
